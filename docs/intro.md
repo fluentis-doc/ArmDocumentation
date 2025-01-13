@@ -7,7 +7,7 @@ L'Application Resource Manager, di seguito anche 'Arm', è un'applicativo che fa
 Arm consente infatti sia la configurazione e la parametrizzazione degli utenti a livello di ruoli, diritti, restrizioni, operazioni sia le personalizzazioni tramite codice C# custom.  
 L'applicativo Arm non è personalizzabile e/o modificabile dagli utenti, e ogni eventuale modifica dell'applicativo verrà distribuita dalla Società Fluentis S.r.l. tramite Release o patch che potranno essere installate tramite il Fluentis Live Update.  
 
-Come per il prodotto Fluentis ERP anche Arm è un applicativo di tipo client / server sviluppato con la tecnologia **Microsoft Windows Presentation Foundation** (WPF), attraverso il pattern architetturale Model-View-ViewModel (MVVM) che garantisce la separazione tra le Classi (Model), le Viste (View) e le logiche di business (View-Model).
+Come per il prodotto Fluentis ERP WPF anche Arm è un applicativo di tipo client / server sviluppato con la tecnologia **Microsoft Windows Presentation Foundation** (WPF), attraverso il pattern architetturale Model-View-ViewModel (MVVM) che garantisce la separazione tra le Classi (Model), le Viste (View) e le logiche di business (View-Model).
 
 L'applicativo Arm è composto da:
 
