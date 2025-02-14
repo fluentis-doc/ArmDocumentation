@@ -14,11 +14,11 @@ Di default Società e Divisione sono impostate con quanto specificato in sede d'
 
 La form si compone così come segue.   
 
-**Filtro**
+### Filtro standard  
 * **Nome**
 * **Descrizione**
 
-**Griglia dei risultati**
+### Griglia dei risultati
 * **Nome:** Codice numerico identificativo della Società.
 * **Descrizione:** Denominazione / Ragione Sociale.
 * **Predefinito:** Checkbox che identifica il caricamento di default di tale Società all'avvio di Fluentis.

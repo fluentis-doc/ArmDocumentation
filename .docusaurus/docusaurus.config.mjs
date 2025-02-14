@@ -146,7 +146,7 @@ export default {
           "title": "Fluentis Documentation",
           "items": [
             {
-              "label": "Fluentis ERP",
+              "label": "Fluentis Academy",
               "href": "https://docs.fluentis.com/FluentisErp/"
             },
             {
@@ -160,11 +160,19 @@ export default {
           ]
         },
         {
-          "title": "Fluentis Customization",
+          "title": "Fluentis Advanced",
           "items": [
             {
               "label": "Integration",
               "href": "https://docs.fluentis.com/Integration/"
+            },
+            {
+              "label": "Installation",
+              "href": "https://docs.fluentis.com/Advanced/FluentisLiveUpdate/"
+            },
+            {
+              "label": "Migration",
+              "href": "https://internal-docs.fluentis.com/Partners/Customization/"
             }
           ]
         },
@@ -183,27 +191,27 @@ export default {
             {
               "label": " Web Site",
               "href": "https://www.fluentis.com/it/",
-              "className": " icon bi bi-arrow-up-right-circle-fill"
+              "className": "icon bi bi-arrow-up-right-circle-fill"
             },
             {
               "label": " Instagram",
               "href": "https://www.instagram.com/fluentis.erp/",
-              "className": " icon bi bi-instagram"
+              "className": "icon bi bi-instagram"
             },
             {
               "label": " Facebook",
               "href": "https://www.facebook.com/FluentisSrl",
-              "className": " icon bi bi-facebook"
+              "className": "icon bi bi-facebook"
             },
             {
-              "label": " YouTube",
+              "label": " Youtube",
               "href": "https://www.youtube.com/@formazionefluentis",
-              "className": " bi bi-youtube"
+              "className": "icon bi bi-youtube"
             }
           ]
         }
       ],
-      "copyright": "Fluentis SRL 2024 | C.F. e P.IVA IT01720550936"
+      "copyright": "FLUENTIS SRL 2025 | C.F. e P.IVA IT01720550936"
     },
     "colorMode": {
       "defaultMode": "light",

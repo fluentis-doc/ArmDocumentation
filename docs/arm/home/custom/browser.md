@@ -19,4 +19,3 @@ I  documenti, che compongono nel loro complesso la documentazione dovranno quind
 Per ogni **progetto** (possono) esistere più **articoli**, e per ogni articolo più **documenti**.  
 Il primo passo sarà quindi creare un Progetto, per poi creare i relativi articoli e documenti.
 
-

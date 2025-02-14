@@ -21,7 +21,7 @@ Per poter aggiungere una nuova icona custom è necessario inserire:
 
 L’inserimento di una nuova immagine avviene direttamente all’interno della griglia partendo con il completamento delle colonne Codice e Descrizione. 
 
-E' poi possibile riutilizzare l'icona caricata all'interno di fluentis associadola a tutti gli elementi di fluentis che prevedono l'indicazione di un'icona come nell'esempio sottoriportato. 
+E' poi possibile riutilizzare l'icona caricata all'interno di fluentis associandola a tutti gli elementi di fluentis che prevedono l'indicazione di un'icona come nell'esempio sottoriportato. 
 
 ![](/images/20241129172119.png)
 

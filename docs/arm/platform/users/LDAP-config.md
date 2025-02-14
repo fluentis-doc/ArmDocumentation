@@ -11,29 +11,28 @@ La form in questione è una filter form costituita da filtro, griglia dei risult
 
 ### Filtro
 
-| <div style={{ width:'50px' }}>***Nome*** </div> | 
-|    -----------------------------------------|            
-| _Dominio_                | 
-| _Server_                  |  
-|_Nome Utente_                | 
-|_Indirizzo di dominio_              | 
-
+| <div style={{ width:'50px' }}>**_Nome_** </div> |
+| ----------------------------------------------- |
+| _Dominio_                                       |
+| _Server_                                        |
+| _Nome Utente_                                   |
+| _Indirizzo di dominio_                          |
 
 ### Griglia dei risultati
 
-| <div style={{ width:'50px' }}>***Nome*** </div> | <div style={{ width:'150px' }}>Descrizione</div>  | 
-|    -----------------------------------------|-----------------------------------------|            
-| _Dominio_                | dominio di rete|
-| _Dominio Netbios_                  |  dominio di rete FQDN|
-|_Server_                |  ip o server host|
-|_Porta_                |  porta per il servizio|
-|_Nome Utente_                |  username per autenticazione|
-|_Password_                |  password dello username|
+| <div style={{ width:'50px' }}>**_Nome_** </div> | <div style={{ width:'150px' }}>Descrizione</div> |
+| ----------------------------------------------- | ------------------------------------------------ |
+| _Dominio_                                       | dominio di rete                                  |
+| _Dominio Netbios_                               | dominio di rete FQDN                             |
+| _Server_                                        | ip o server host                                 |
+| _Porta_                                         | porta per il servizio                            |
+| _Nome Utente_                                   | username per autenticazione                      |
+| _Password_                                      | password dello username                          |
 
 ### Azioni
 
-| <div style={{ width:'50px' }}>***Nome*** </div> | Descrizione | 
-|    -----------------------------------------|-----------------------------------------|            
-| _Ricerca_                |  applica le regole di filtro e carica la lista delle configurazioni disponibili|
-| _Nuovo_                  |  creazione manuale di una nuova configurazione LDAP|
-|_Cancella_                |  elimina la configurazione selezionata|
+| <div style={{ width:'50px' }}>**_Nome_** </div> | Descrizione                                                                    |
+| ----------------------------------------------- | ------------------------------------------------------------------------------ |
+| _Ricerca_                                       | applica le regole di filtro e carica la lista delle configurazioni disponibili |
+| _Nuovo_                                         | creazione manuale di una nuova configurazione LDAP                             |
+| _Cancella_                                      | elimina la configurazione selezionata                                          |

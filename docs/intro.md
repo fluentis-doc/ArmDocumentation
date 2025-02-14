@@ -21,3 +21,4 @@ L'applicativo Arm è composto da:
 Per tutti i dettagli relativi all'installazione dell'**Application Resource Manager**  si rimanda alla documentazione 'Fluentis Live Update Installation' al seguente [LINK](https://docs.fluentis.com/Advanced/FluentisLiveUpdate/).  
 
 
+
