@@ -122,7 +122,7 @@ export default {
           ]
         },
         {
-          "to": "docs/FAQ/WINDOWSFAQ",
+          "to": "#",
           "label": "FAQ",
           "position": "right"
         },

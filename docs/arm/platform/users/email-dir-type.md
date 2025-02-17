@@ -22,3 +22,5 @@ La form **Tipo directory e-mail** è una filter form costituita da filtro, grigl
 * **Ricerca:** per applicare le regole di filtro e caricare la lista dei tipi disponibili.
 * **Nuovo:** per procedere alla creazione manuale di un nuovo tipo. 
 * **Cancella:** per eliminare il tipo selezionato.
+
+

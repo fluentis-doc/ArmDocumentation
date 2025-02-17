@@ -66,7 +66,7 @@ const config = {
         },
 
         {
-          to: 'docs/FAQ/WINDOWSFAQ',
+          to: '#',
           label: 'FAQ',
           position: 'right',
         },
