@@ -42,17 +42,18 @@ Per ulteriori approfondimenti si rimanda alla documentazione ufficiale di Micros
 
 Per verificare il **NetBIOS Domain** è possibile, tramite il prompt, lanciare il seguente comando:
 
-```bash
+```powershell
 nltest /dsgetdc:<nome_dominio>
-
 ```
+
 ![](../../../../../static/images/20250217105506.png)  
 
 
-### Login a Fluentis tramite l'Active Directory  
-![](../../../../../static/images/20250217105958.png)
+### Login ad Arm tramite l'Active Directory  
 
-Come illustrato in figura, è sufficiente spuntare il checkbox **Active Directory**, per poter eseguire il login.  
+Una volta parametrizzato l'Active Directory per l'**Application Resource Manager** è necessario creare il relativo utente per Arm.  
+Si rimanda al seguente [**Link**](docs/arm/home/connections/connections-details/arm-users.md) di documentazione interna.  
+
+Una volta parametrizzato l'utente che avrà come modalità d'accesso **Active Directory**, è sufficiente loggarsi in Arm spuntando la checkbox Sigle-Sign-On così come in figura sottostante.  
 Fluentis recupererà automaticamente le informazioni di dominio.  
-
-Invece, per l'importazione degli utenti in Arm tramite LDAP si rimanda al questo [**Link**](docs/arm/platform/users/import-ad.md) di guida interna. 
+![](../../../../../static/images/20250217162617.png)
