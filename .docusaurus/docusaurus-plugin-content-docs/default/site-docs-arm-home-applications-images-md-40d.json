@@ -1,7 +1,7 @@
 {
   "id": "arm/home/applications/images",
   "title": "Images",
-  "description": "Questa funzionalità di Fluentis consente all'utente di includere nel gestione delle nuove icone da poter associare ai comandi di Fluentis.",
+  "description": "Questa funzionalità consente all'utente di includere in Fluentis delle nuove icone da poter associare ai pulsanti / bottoni di Fluentis.",
   "source": "@site/docs/arm/home/applications/images.md",
   "sourceDirName": "arm/home/applications",
   "slug": "/arm/home/applications/images",
@@ -15,13 +15,13 @@
     "title": "Images",
     "sidebar_position": 2
   },
-  "sidebar": "arm",
+  "sidebar": "flu",
   "previous": {
-    "title": "Lingue",
-    "permalink": "/Arm/docs/arm/home/applications/dictionary/languages"
+    "title": "Dizionario",
+    "permalink": "/Arm/docs/arm/home/applications/dictionary/"
   },
   "next": {
-    "title": "Fluentis",
-    "permalink": "/Arm/docs/arm/fluentis/"
+    "title": "Acceleratos",
+    "permalink": "/Arm/docs/arm/home/applications/accelerators"
   }
 }

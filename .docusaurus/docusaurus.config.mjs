@@ -32,6 +32,11 @@ export default {
     "path": "i18n"
   },
   "themeConfig": {
+    "colorMode": {
+      "defaultMode": "light",
+      "disableSwitch": true,
+      "respectPrefersColorScheme": false
+    },
     "navbar": {
       "title": "Arm",
       "logo": {
@@ -125,16 +130,7 @@ export default {
           "to": "#",
           "label": "Release Notes",
           "position": "right",
-          "items": [
-            {
-              "label": "1.2.71",
-              "href": "#"
-            },
-            {
-              "label": "1.2.70",
-              "href": "#"
-            }
-          ]
+          "items": []
         }
       ],
       "hideOnScroll": false
@@ -212,11 +208,6 @@ export default {
         }
       ],
       "copyright": "FLUENTIS SRL 2025 | C.F. e P.IVA IT01720550936"
-    },
-    "colorMode": {
-      "defaultMode": "light",
-      "disableSwitch": false,
-      "respectPrefersColorScheme": false
     },
     "docs": {
       "versionPersistence": "localStorage",
@@ -383,18 +374,18 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Users\\dario.belluz\\Desktop\\Arm\\sidebars.js",
+          "sidebarPath": "C:\\Users\\dario.belluz\\Desktop\\ArmDocumentation\\sidebars.js",
           "showLastUpdateTime": false
         },
         "theme": {
-          "customCss": "C:\\Users\\dario.belluz\\Desktop\\Arm\\src\\css\\custom.css"
+          "customCss": "C:\\Users\\dario.belluz\\Desktop\\ArmDocumentation\\src\\css\\custom.css"
         }
       }
     ]
   ],
   "plugins": [
     [
-      "C:\\Users\\dario.belluz\\Desktop\\Arm\\node_modules\\@cmfcmf\\docusaurus-search-local\\lib\\server\\index.js",
+      "C:\\Users\\dario.belluz\\Desktop\\ArmDocumentation\\node_modules\\@cmfcmf\\docusaurus-search-local\\lib\\server\\index.js",
       {
         "indexDocs": true,
         "indexDocSidebarParentCategories": 0,

@@ -26,8 +26,8 @@ Nella form, sono presenti le generalità che identificano la nuova tabella:
 Nel tab centrale si trovano:
 * **Colonne**, che fa riferimento alla definizione delle colonne della tabella.  
 * **Chiave**, che fa riferimento alla chiave primaria della tabella(le primary key - PK).  
-* **Index**, che fa riferimento ad evenuali indici della tabella, se definiti.  
-* **Constraint**, che fa rifemento ai vincoli di chiave esterna della tabella (le foreign key - FK).
+* **Index**, che fa riferimento ad eventuali indici della tabella, se definiti.  
+* **Constraint**, che fa riferimento ai vincoli di chiave esterna della tabella (le foreign key - FK).
 
 
 

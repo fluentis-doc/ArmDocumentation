@@ -11,18 +11,18 @@
           "mainDocId": "arm/home/home",
           "docs": [
             {
-              "id": "arm/home/Applications/accelerators",
-              "path": "/Arm/docs/arm/home/Applications/accelerators",
+              "id": "arm/home/applications/accelerators",
+              "path": "/Arm/docs/arm/home/applications/accelerators",
               "sidebar": "flu"
             },
             {
-              "id": "arm/home/Applications/dictionary/dictionary",
-              "path": "/Arm/docs/arm/home/Applications/dictionary/",
+              "id": "arm/home/applications/dictionary/dictionary",
+              "path": "/Arm/docs/arm/home/applications/dictionary/",
               "sidebar": "flu"
             },
             {
-              "id": "arm/home/Applications/images",
-              "path": "/Arm/docs/arm/home/Applications/images",
+              "id": "arm/home/applications/images",
+              "path": "/Arm/docs/arm/home/applications/images",
               "sidebar": "flu"
             },
             {
@@ -43,6 +43,11 @@
             {
               "id": "arm/home/connections/connections-details/bizlink-users",
               "path": "/Arm/docs/arm/home/connections/connections-details/bizlink-users",
+              "sidebar": "flu"
+            },
+            {
+              "id": "arm/home/connections/connections-details/ldap",
+              "path": "/Arm/docs/arm/home/connections/connections-details/ldap",
               "sidebar": "flu"
             },
             {

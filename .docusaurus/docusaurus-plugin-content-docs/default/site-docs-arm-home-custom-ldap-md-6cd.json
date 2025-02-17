@@ -1,0 +1,27 @@
+{
+  "id": "arm/home/custom/ldap",
+  "title": "LDAP Global Configuration",
+  "description": "asdasdas",
+  "source": "@site/docs/arm/home/custom/ldap.md",
+  "sourceDirName": "arm/home/custom",
+  "slug": "/arm/home/custom/ldap",
+  "permalink": "/Arm/docs/arm/home/custom/ldap",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "LDAP Global Configuration",
+    "sidebar_position": 4
+  },
+  "sidebar": "flu",
+  "previous": {
+    "title": "Documentation Browser",
+    "permalink": "/Arm/docs/arm/home/custom/browser"
+  },
+  "next": {
+    "title": "Context",
+    "permalink": "/Arm/docs/arm/home/context"
+  }
+}

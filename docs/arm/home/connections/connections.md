@@ -1,6 +1,6 @@
 ---
 title: Connessioni
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 ![](../../../../static/images/20241204101909.png)
@@ -8,16 +8,16 @@ sidebar_position: 2
 ![](../../../../static/images/20241216164551.png)
 
 
-In questo gruppo vengono mostrati i parametri di connessione all'istanza MSSQL dedicata alla suite Fluentis che comprende i database di FluentisLiveUpdate, Arm e FluentisErp.     
-A questi database verranno poi definiti gli accessi alle varie applicazioni e moduli che compongono il sistema gestionale.
+In questo gruppo vengono mostrati i parametri di connessione all'istanza MSSQL dedicata alla suite Fluentis che comprende i database di FluentisLiveUpdate, Arm e Fluentis.     
+In questi database verranno poi definiti gli accessi alle varie applicazioni e moduli che compongono il sistema gestionale.
 
 La form **Connessioni** è costituita da un filtro, un corpo centrale con griglia dei risultati sulla destra e griglia di dettagli sulla destra e una serie di informazioni valide per ogni dettaglio selezionato, poste in un expander in coda alla form e una ribbon bar con le azione a disposizione dell'utente.
 
-**Filtro**
+### Filtro Standard
 * **Codice**
 * **Server**
 
-**Griglia dei risultati**
+### Griglia dei risultati
 * **Codice:** codice alfanumerico univoco da assegnare alla connessione.
 * **Server:** nome dell’istanza MSSQL dedicata alla suite Fluentis.
 * **Database:** nome del database caricato sull'istanza MSSQL.
@@ -31,6 +31,7 @@ Oltre alla griglia dei risultati, sulla sinistra, è presente una griglia di det
 * **Nome login Fluentis**
 * **Disabilitato**
 
+### Proprietà
 L'expander finale **Proprietà** contiene una serie di proprietà aggiuntive per ogni record di connessione che viene selezionato, in particolare:
 * **Fluentis Server Url:** si tratta dell'endpoint relativo al cluster di Fluentis utilizzato per la connessione. 
 * **Utente Aggiornamento Fluentis:** nome utente da utilizzare per aggiornare l’applicativo.
@@ -39,7 +40,7 @@ L'expander finale **Proprietà** contiene una serie di proprietà aggiuntive per
 * **Utente SQL:** utente utilizzato da Fluentis per eseguire le query su DB MSSQL.
 * **Password SQL:** password dell’utente MSSQL utilizzato da Fluentis per eseguire le query.
 
-**Azioni**
+### Azioni
 * **Ricerca:** per applicare le regole di filtro e caricare la lista delle connessioni disponibili.
 * **Salva:** per salvare tutte le modifiche effettuate.
 

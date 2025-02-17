@@ -24,6 +24,10 @@ const config = {
     },
   },
   themeConfig: {
+    colorMode:{
+      defaultMode: 'light',  // Imposta la modalità predefinita (può essere 'light' o 'dark')
+      disableSwitch: true,  // Se impostato su true, disabilita la possibilità per l'utente di cambiare modalità
+    },
     navbar: {
       title: 'Arm',
       logo: {
@@ -71,14 +75,7 @@ const config = {
           label: 'Release Notes',
           position: 'right',
           items: [
-            {
-              label: '1.2.71',
-              href: '#'
-            },
-            {
-              label: '1.2.70',
-              href: '#',
-            },
+
           ],
         },
       ]

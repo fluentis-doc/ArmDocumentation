@@ -59,15 +59,15 @@ export default [
   },
   {
     path: '/Arm/docs',
-    component: ComponentCreator('/Arm/docs', 'efc'),
+    component: ComponentCreator('/Arm/docs', '84d'),
     routes: [
       {
         path: '/Arm/docs',
-        component: ComponentCreator('/Arm/docs', '6ab'),
+        component: ComponentCreator('/Arm/docs', '04f'),
         routes: [
           {
             path: '/Arm/docs',
-            component: ComponentCreator('/Arm/docs', '95e'),
+            component: ComponentCreator('/Arm/docs', 'f49'),
             routes: [
               {
                 path: '/Arm/docs/arm/home/',
@@ -76,20 +76,20 @@ export default [
                 sidebar: "flu"
               },
               {
-                path: '/Arm/docs/arm/home/Applications/accelerators',
-                component: ComponentCreator('/Arm/docs/arm/home/Applications/accelerators', '30a'),
+                path: '/Arm/docs/arm/home/applications/accelerators',
+                component: ComponentCreator('/Arm/docs/arm/home/applications/accelerators', 'd84'),
                 exact: true,
                 sidebar: "flu"
               },
               {
-                path: '/Arm/docs/arm/home/Applications/dictionary/',
-                component: ComponentCreator('/Arm/docs/arm/home/Applications/dictionary/', '77c'),
+                path: '/Arm/docs/arm/home/applications/dictionary/',
+                component: ComponentCreator('/Arm/docs/arm/home/applications/dictionary/', '5e5'),
                 exact: true,
                 sidebar: "flu"
               },
               {
-                path: '/Arm/docs/arm/home/Applications/images',
-                component: ComponentCreator('/Arm/docs/arm/home/Applications/images', '5b3'),
+                path: '/Arm/docs/arm/home/applications/images',
+                component: ComponentCreator('/Arm/docs/arm/home/applications/images', '482'),
                 exact: true,
                 sidebar: "flu"
               },
@@ -114,6 +114,12 @@ export default [
               {
                 path: '/Arm/docs/arm/home/connections/connections-details/bizlink-users',
                 component: ComponentCreator('/Arm/docs/arm/home/connections/connections-details/bizlink-users', 'fc7'),
+                exact: true,
+                sidebar: "flu"
+              },
+              {
+                path: '/Arm/docs/arm/home/connections/connections-details/ldap',
+                component: ComponentCreator('/Arm/docs/arm/home/connections/connections-details/ldap', '24b'),
                 exact: true,
                 sidebar: "flu"
               },

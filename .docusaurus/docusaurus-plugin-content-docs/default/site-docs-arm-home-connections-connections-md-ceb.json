@@ -1,7 +1,7 @@
 {
   "id": "arm/home/connections/connections",
   "title": "Connessioni",
-  "description": "In questo gruppo vengono mostrati i parametri di connessione all'istanza MSSQL dedicata alla suite Fluentis che comprende i database di FluentisLiveUpdate, Arm e FluentisErp.",
+  "description": "In questo gruppo vengono mostrati i parametri di connessione all'istanza MSSQL dedicata alla suite Fluentis che comprende i database di FluentisLiveUpdate, Arm e Fluentis.",
   "source": "@site/docs/arm/home/connections/connections.md",
   "sourceDirName": "arm/home/connections",
   "slug": "/arm/home/connections/",
@@ -10,10 +10,10 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 2,
+  "sidebarPosition": 1,
   "frontMatter": {
     "title": "Connessioni",
-    "sidebar_position": 2
+    "sidebar_position": 1
   },
   "sidebar": "flu",
   "previous": {

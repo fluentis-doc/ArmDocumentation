@@ -6,8 +6,6 @@ La Suite **Fluentis** viene distribuita dalla Società Fluentis S.R.L., con lice
 La **Licenza** è un codice alfanumerico **univoco** fornito al committente di **Fluentis S.R.L.**, che da diritto ad esso di utilizzare il gestionale in funzione dei moduli acquistati in fase di trattativa commerciale. (per esempio: ERP, CRM, MRP, WMS...).  
 Si precisa che in assenza del **numero seriale di Licenza** **Fluentis** non può in alcun modo essere utilizzato.  
 
-
-
 ![](../../../static/images/20241204112048.png)
 
 ![](../../../static/images/20241216141938.png)

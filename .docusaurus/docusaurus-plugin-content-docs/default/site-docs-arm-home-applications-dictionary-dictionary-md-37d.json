@@ -15,13 +15,13 @@
     "title": "Dizionario",
     "sidebar_position": 1
   },
-  "sidebar": "arm",
+  "sidebar": "flu",
   "previous": {
-    "title": "Contesto",
-    "permalink": "/Arm/docs/arm/home/context"
+    "title": "LDAP Global Configuration",
+    "permalink": "/Arm/docs/arm/home/connections/connections-details/ldap"
   },
   "next": {
-    "title": "Lingue",
-    "permalink": "/Arm/docs/arm/home/applications/dictionary/languages"
+    "title": "Images",
+    "permalink": "/Arm/docs/arm/home/applications/images"
   }
 }
