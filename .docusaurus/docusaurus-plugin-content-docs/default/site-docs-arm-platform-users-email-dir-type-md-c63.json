@@ -1,7 +1,7 @@
 {
   "id": "arm/platform/users/email-dir-type",
-  "title": "Tipo directory e-mail",
-  "description": "Nel caso si sia scelto di abilitare l'email degli utenti in Fluentis (Utenti>Altre-caratteristiche), nella form Tipo directory e-mail sarà possibile definire le singole directory di posta elettronica che verranno utilizzate all'interno dell'applicativo.",
+  "title": "Email Directory Type",
+  "description": "La form Email Directory Type permette di parametrizzare le cartelle relative all'indirizzo di posta elettronica.",
   "source": "@site/docs/arm/platform/users/email-dir-type.md",
   "sourceDirName": "arm/platform/users",
   "slug": "/arm/platform/users/email-dir-type",
@@ -12,12 +12,12 @@
   "version": "current",
   "sidebarPosition": 5,
   "frontMatter": {
-    "title": "Tipo directory e-mail",
+    "title": "Email Directory Type",
     "sidebar_position": 5
   },
   "sidebar": "arm",
   "previous": {
-    "title": "Schema directory posta elettronica",
+    "title": "Email Directory Schema",
     "permalink": "/Arm/docs/arm/platform/users/email-dir-scheme"
   },
   "next": {

@@ -6,50 +6,39 @@ sidebar_position: 1
 ![](../../../../static/images/20241204101121.png)
 
 In questa sezione vengono mostrate le opzioni relative alla parametrizzazione degli utenti di **Fluentis**.  
-Gli utenti parametrizzati nella griglia avranno accesso ai relativi moduli di Fluentis.
+Gli utenti nella griglia avranno accesso ai relativi moduli del gestionale in funzione della parametrizzazione effettuata.  
 
-![](../../../../static/images/20241231101955.png)
+![](../../../../static/images/20250218162748.png)
 
-## Griglia utenti
+***La form principale relativa agli **Utenti** è composta così come segue***
 
-La form Utenti è una filter form composta da un filtro, una griglia dei risultati e una ribbon bar con i pulsanti per le azioni da compiere.
+### Ribbon menu
+Il Ribbon Menu contestuale alla form permette all'utente di eseguire le seguenti azioni:
+* Search.
+* New.
+* Edit.
+* View.
+* Remove. 
+  
+### Filtro Standard
+Il filtro standard permette all'utente di filtrare la griglia dei risultati in base a dei criteri definiti, nello specifico:
+* Name.
+* Email.
+* Role.
+* Restriction.
 
-| <div style={{ width:'250px' }}>**_Griglia dei risultati_** </div> | Descrizione                                                                           |
-| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| _Nome_                                                            | nome e cognome dell’utente                                                            |
-| _Tipo Autenticazione_                                             | modalità di autenticazione                                                            |
-| _Nome login_                                                      | login di accesso                                                                      |
-| _Dominio_                                                         | nome del dominio di autenticazione dell’utente o nome del workgroup del server di ARM |
-| _Email_                                                           | email dell’utente                                                                     |
-| _Descrizione_                                                     | eventuale descrizione dell’utente                                                     |
-| _Lingua_                                                          | lingua di default per l’utente                                                        |
-| _Tipo Licenza_                                                    | tipo di licenza assegnata all'utente                                                  |
-| _Disabilitato_                                                    | indica se l'utente è disabilitato ad accedere a fluentis                              |
-
-
-Nel **Ribbon menu** è possibile eseguire delle azioni contestuali alla form.  
-Nello specifico:  
-
-
-| <div style={{ width:'250px' }}>**_Azioni_** </div> | Descrizione                                                                                                                   |
-| -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| _Ricerca_                                          | per applicare le regole di filtro e caricare la lista degli utenti disponibili                                                |
-| _Nuovo_                                            | per procedere alla creazione manuale di un utente                                                                             |
-| _Modifica_                                         | per modificare i dettagli di un utente selezionato, permette di aprire in modalità RW la form di dettaglio del singolo utente |
-| _Visualizza_                                       | per aprire in modalità RO la form di dettagli del singolo utente e visualizzare i dettagli                                    |
-| _Elimina_                                          | per eliminare l’utente selezionato                                                                                            |
-
-**Nuovo / Modifica / Visualizza** portano all’apertura della stessa Object Form di dettaglio Utente. Con **Nuovo** la form sarà in modalità ReadWrite e con tutti i campi da popolare, con **Modifica** la form sarà ReadWrite e tutti i campi saranno modificabili, con **Visualizza** sarà in modalità ReadOnly per la sola lettura.
-
-## Azioni ribbon form di dettaglio
-
-| <div style={{ width:'250px' }}>**_Azioni_** </div> | Descrizione                                                                                       |
-| -------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| _Salva_                                            | per salvare le modifiche fatte                                                                    |
-| _Aggiorna la licenza_                              | da utilizzare nel momento in cui si modificano informazioni relative alla licenza nel secondo tab |
-| _Percorso predefinito per Outlook_                 |                                                                                                   |
-
-## Testata
+### Griglia dei Risultati
+La griglia dei risultati permette all'utente di di visualizzare gli utenti inseriti e parametrizzati per l'accesso a Fluentis.   
+La griglia si compone dei seguenti campi:
+* Name: Si tratta del nome completo dell'utente di Fluentis.
+* Autentication Type:
+* Login name:
+* Domain:
+* Email:
+* Description:
+* Language:
+* License Type:
+* Disabled: 
 
 La form **Utente** è una object form composta da una serie di campi di testata e 3 Tab con le informazioni di dettaglio e una ribbon bar con le possibili azioni dell'utente.
 
@@ -62,14 +51,12 @@ La form **Utente** è una object form composta da una serie di campi di testata 
 - **Nome login:** nome utilizzato per il login dell'utente.
 - **Tipo Autenticazione:**
   - **Active Directory:** quando l’autenticazione è di Dominio/Workgroup.
-  - **Database:** quando l’autenticazione viene gestita interamente da Arm.
-- **Disabilitato:** disabilita l’utente.
-- **Password obbligatoria:** rende obbligatoria la password per la login.
-- **Descrizione:** possibile descrizione legata all'utente.
-- **Dominio:** dominio legato alla login dell'utente.
-- **Lingua:** lingua utilizzata dall'utente.
-
-Tab che contengono tutte le informazioni di dettaglio: **Sicurezza / Licenza / Altre caratteristiche**.
+  - **Database:** quando l’autenticazione viene gestita dal database.  
+- **Disabilitato:** disabilita l’utente.  
+- **Password obbligatoria:** rende obbligatoria la password per la login.  
+- **Descrizione:** possibile descrizione legata all'utente.  
+- **Dominio:** dominio legato alla login dell'utente.  
+- **Lingua:** lingua utilizzata dall'utente.  
 
 ## Tabs
 
@@ -145,48 +132,87 @@ La griglia contiene la lista di licenze disponibili che possono essere associate
 
 #### Altre caratteristiche
 
-![](/img/home/users/other-features1.png)
+![](../../../../static/images/20250221111625.png)
 
 **Altre caratteristiche** contiene tutte le parametrizzazioni extra legate alla gestione della posta e delle configurazioni di avvio del profilo utente.
 
-- **Email:** campo in cui indicare l’email dell’utente corrente.
-- **Schema predefinito directory posta elettronica:** campo in cui indicare l’email dell’utente corrente.
-- **Abilita chat:** flag che abilita l’utilizzo della Chat per l’utente corrente.
-- **Nascondi le informazioni sull'azienda nei Forms** nasconde il nome della compagnia e della divisione nei Forms di Fluentis:
+* **Email:** campo in cui indicare l'indirizzo completo di posta elettronica desiderato per l'utente corrente.  
+* **Schema predefinito directory posta elettronica:** si tratta di una combo-box che richiama la parametrizzazione delle cartelle effettuata nella form al seguente 
+* [**Link**](docs/ arm/platform/users/email-dir-scheme.md).  
+* **Abilita chat:** flag che abilita l’utilizzo della Chat per l’utente corrente.  
+* **Nascondi le informazioni sull'azienda nei Forms** nasconde il nome della società e della divisione nei Forms di Fluentis:
 
-![](/img/home/users/nome-azienda-form.png)
+* **Abilita e-mail:** flag che abilità la sincronizzazione dell’email nel client di Fluentis.
+* **Percorso predefinito per Outlook:** percorso di Exchange per indicare come agganciare il calendario utente.  
+* **Sincronizza intervallo:** specificare la quantità di secondi desiderata per l’intervallo di aggiornamento della casella di posta elettronica.  
+* **Timeout di inattività (min):** quantità di minuti per definire l’inattività di sincronizzazione della posta elettronica.  
+* **Default DashBoard:** selezionare la dashboard di default che si desidera avviare allo startup del login dell’utente nel client di Fluentis.  
+* **Sequenza delle DashBoard:** selezionare la sequenza delle dashboard da eseguire allo startup del client di Fluentis per l’utente corrente.  
+* **Intervallo di sincronizzazione della posta elettronica:** indica il numero di secondi di intervallo di sincronizzazione della posta elettronica.
+* **Email giorni per la sincronizzazione:** indicare il numero di giorni per i quali si vuole avere l’aggiornamento della posta elettronica, default (ultimi 15).
+* **Startup forms:** tramite l’apposita griglia, è possibile indicare le forms che l’utente desidera far partire allo startup di Fluentis.
 
-- **Abilita e-mail:** flag che abilità la sincronizzazione dell’email nel client di Fluentis.
-- **Percorso predefinito per Outlook:** percorso di Exchange per indicare come agganciare il calendario utente. Es. “\\fabrizio.s@fluentis.com\Calendar”.
-- **Sincronizza intervallo:** specificare la quantità di secondi desiderata per l’intervallo di aggiornamento del calendario.
-- **Timeout di inattività (min):** quantità di minuti per definire l’inattività di sincronizzazione del calendario.
-- **Default DashBoard:** selezionare la dashboard di default che si desidera avviare allo startup del login dell’utente nel client di Fluentis.
-- **Sequenza delle DashBoard:** selezionare la sequenza delle dashboard da eseguire allo startup del client di Fluentis per l’utente corrente.
-- **Intervallo di sincronizzazione della posta elettronica:** indicare il numero di secondi di intervallo di sincronizzazione della posta elettronica.
-- **Email giorni per la sincronizzazione:** indicare il numero di giorni per i quali si vuole avere l’aggiornamento della posta elettronica, default (ultimi 15).
-- **Startup forms:** tramite l’apposita griglia, è possibile indicare le forms che l’utente desidera far partire allo startup di Fluentis.
+## Configurazione del server di posta
+Il tab in basso permette la parametrizzazione del server di posta.  
+![](../../../../static/images/20250221112559.png)
 
-* | <div style={{ width:'150px' }}>**_Nome_** </div> | Descrizione                                       |
-  | ------------------------------------------------ | ------------------------------------------------- |
-  | _Ordine_                                         | Ordinamento di apertura                           |
-  | _Area_                                           | Area form                                         |
-  | _Modulo_                                         | Modulo form                                       |
-  | _Entry point command_                            | Nome del bottone per aprire le form Fluentis      |
-  | _Società_                                        | Specifica per quale società eseguire lo startup   |
-  | _Divisione_                                      | Specifica per quale divisione eseguire lo startup |
-  | _Contesto_                                       | Specifica il contesto di apertura                 |
+### Prerequisiti sistemistici
+* Avere un server di posta **IMAP** funzionante.
+  * il quale implica settare nel **DNS** un Record di tipo A ed MX.  
+* Assicurarsi che la porta **IMAP** 993 sia in ascolto.  
+* Abilitare l'autenticazione tramite **SSL** nel server di posta.  
+* Avere a disposizione un **dominio**.
 
-- **Utente email:** indicare in questa griglia le informazioni dei client di email da agganciare. Le informazioni da specificare sono:
+### Strumenti diagnostici
+* Per verificare che il server DNS risolva correttamente l'indirizzo del server IMAP di posta elettronica.  
+![](../../../../static/images/20250221113042.png)
 
-* | <div style={{ width:'150px' }}>**_Nome_** </div> | Descrizione                                                                                                                                                                                                                                           |
-  | ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-  | _Codice_                                         | un nome di fantasia per indicare la sorgente email: (Fabrizio_Gmail, Fabrizio_Hotmail, Fabrizio_Fluentis…)                                                                                                                                            |
-  | _Descrizione_                                    | descrizione estesa del nome di fantasia sopra indicato (Email di Gmail di Fabrizio, Email di Hotmail di Fabrizio…)                                                                                                                                    |
-  | _Nome Utente_                                    | le credenziali per accedere al servizio di posta elettronica esterno (Es. FLUENTIS\Fabrizio, ecc)                                                                                                                                                     |
-  | _Password_                                       | indicare la password per accedere al servizio di posta                                                                                                                                                                                                |
-  | _IMAP_                                           | indicare il nome del server IMAP per accedere alla posta esterna: (Es. exchange.fluentis.com…)                                                                                                                                                        |
-  | _POP_                                            | indicare il nome del server POP per accedere alla posta esterna                                                                                                                                                                                       |
-  | _Schema directory posta elettronica_             | lo schema directory da utilizzare. Una volta inseriti tutti i precedenti campi, verrà suggerito in automatico lo schema del server configurato. È possibile modificarlo/inserirne un altro in [Schema directory posta elettronica](email-dir-scheme). |
+* Per verificare che il record MX del tuo dominio sia impostato correttamente puoi usare il seguente comando powershell.  
+![](../../../../static/images/20250221113405.png)
+
+* Per verificare che la porta 993 sia in ascolto si può utilizzare il seguente comando powershell.  
+![](../../../../static/images/20250221113636.png)
+
+* Per verificare che il server di posta risponda correttamente puoi usare il ***telnet***  
+![](../../../../static/images/20250221114746.png)
+
+## Posta in Fluentis  
+![](../../../../static/images/20250221114546.png)
+
+La form si divide in n. 3 tab:
+* struttura delle cartelle della casella di posta elettronica.  
+* messaggi.
+* anteprima del messaggio.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </TabItem>
 </Tabs>

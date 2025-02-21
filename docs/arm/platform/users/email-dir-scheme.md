@@ -1,35 +1,36 @@
 ---
-title: Schema directory posta elettronica
+title: Email Directory Schema   
 sidebar_position: 4
 ---
+![](../../../../static/images/20250221110118.png)
 
-La form **Schema directory posta elettronica** permette di modificare o creare un nuovo Schema directory. Uno Schema directory è l'insieme delle cartelle di posta elettronica che si vogliono visualizzare dentro l'applicativo Fluentis una volta configurata la mail utente.
+Questa form permette di definire la struttura delle cartelle che verrà visualizzata all'interno dell'applicativo Fluentis, alla sezione **Posta**.  
 
-È possibile configurare più **Schema directory** (contenenti cartelle diverse) e decidere quale assegnare a diversi Utenti.
+![](../../../../static/images/20250221110445.png)  
 
-![directoryscheme](/img/home/users/directoryscheme.png)
+***La form si compone così com segue:***
 
-### Filtro
-* **Codice/Descrizione**
+### Ribbon menu
+Il ribbon menu si compone come segue:
+* Search.
+* New.
+* Delete.
+* New email directory: permette di creare una nuova cartellina dal nodo principale.
+* New child email directory: permette di creare un nuova cartellina figlio dal nodo selezionato.
+* Delete email directory: permette di cancellare una nuova cartellina selezionata.  
 
-### Griglia dei risultati
-* **Codice:** codice identificativo dello schema.
-* **Descrizione:**  descrizione collegata al codice schema.
+### Filtro Standard
+Il filtro permette di filtrare per **Codice** e **Descrizione**.   
 
-### Griglia di dettaglio
-* **Tipo directory e-mail:** codice del Tipo directory definito in [Tipo directory e-mail](email-dir-type).
-* **Descrizione:** descrizione del Tipo directory (si compilerà in automatico una volta scelto il codice).
-* **Nome:** nome della directory che sarà mostrato in Fluentis.
-* **Server P.O.S.:** il nome della directory che si vuole mappare sul server di origine.
-* **Nome localizzato:**
-* **Visibile:** permette di rendere visibile o nascondere la directory selezionata.
 
-![directoryscheme](/img/home/users/schema-dir.png)
+### Corpo Centrale
+Nel corpo centrale si trova la struttura delle cartelle della casella di posta elettronica che è possibile parametrizzare tramite i pulsanti posti sul ribbon menu.   
+* Email directory type: è una combo-box che permette di scegliere il tipo di cartella tra quelli definiti nella form Arm al seguente [**Link**](docs/arm/platform/users/email-dir-type.md).  
+* Description: si tratta di una descrizione presa in automatico in fase di popolamento della combo-box di cui al punto che precede.
+* Name: è necessario indicare il nome della cartella della casella di posta.   
+* Visibile: è un flag, che se attivato, permette di abilitare la lettura delle email da Fluentis.  
+  
+:::danger
+***Server name non deve essere popolato.***
+:::
 
-### Azioni
-* **Ricerca:** per applicare le regole di filtro e caricare la lista degli schemi disponibili.
-* **Nuovo:** per procedere alla creazione manuale di uno schema. 
-* **Cancella:** per eliminare l’utente selezionato.
-* **Nuova directory di posta elettronica:** per inserire un nuovo tipo directory.
-* **Nuovo figlio directory di posta elettronica:** per inserire una sotto-cartella al tipo directory selezionato.
-* **Elimina directory di posta elettronica:**  per eliminare il tipo directory selezionato.

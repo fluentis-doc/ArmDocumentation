@@ -1,25 +1,42 @@
 ---
-title: Tipo directory e-mail
+title: Email Directory Type
 sidebar_position: 5
 ---
+![](../../../../static/images/20250221104014.png)   
 
-Nel caso si sia scelto di abilitare l'email degli utenti in Fluentis (Utenti>Altre-caratteristiche), nella form **Tipo directory e-mail** sarà possibile definire le singole directory di posta elettronica che verranno utilizzate all'interno dell'applicativo.
+La form **Email Directory Type** permette di parametrizzare le cartelle relative all'indirizzo di posta elettronica.  
+![](../../../../static/images/20250221104536.png)  
 
-Una volta inserite le directory desiderate, sarà possibile assegnarle ai diversi Schema tramite la form [Schema directory posta elettronica](email-dir-scheme).
+***La form si compone così come segue:***
 
-![directorytype](/img/home/users/directorytype.png)
+### Ribbon menu
+Il Ribbon Menu è composto da n. 3 pulsanti:
+* Search.
+* New.
+* Delete.  
+Questi pulsanti permettono all'utente di cercare, creare ed eliminare delle nuove directory per la casella di posta elettronica.  
 
-La form **Tipo directory e-mail** è una filter form costituita da filtro, griglia dei risultati e ribbon bar con le azioni consentite all'utente.
+### Filtro Standard
+Il filtro standard si compone di:
+* Codice
+* Descrizione
 
-### Filtro
-* **Codice/Descrizione**
+### Corpo Centrale
 
-### Griglia dei risultati
-* **Codice:** codice identificativo della directory.
-* **Descrizione:** descrizione della directory.
+Di default sono presenti n. 4 elementi di cui:
+* Inbox.
+* Sent Items.
+* Deleted Items.
+* Draft.
 
-### Azioni
-* **Ricerca:** per applicare le regole di filtro e caricare la lista dei tipi disponibili.  
-* **Nuovo:** per procedere alla creazione manuale di un nuovo tipo.  
-* **Cancella:** per eliminare il tipo selezionato.  
+### Trick and Tips
+A titolo d'esempio, per verificare la struttura delle cartelle dell'indirizzo di posta in un Server Windows è possibile tramite il powershell lanciare questo comando.  
+:::danger
+In questo scenario, è stato utilizzato il server di posta gratuito MailEnable.  
+il comando powershell varia a seconda della tipologia di server di posta utilizzato.  
+:::
+![](../../../../static/images/20250221105419.png)  
 
+:::danger
+La struttura dell cartelle della casella di posta elettronica deve rispecchiare quanto riportato in Arm; perciò se la cartella di posta in entrata si chiama 'Inbox', anche in Arm dovrà essere presente il medesimo nome.   
+:::
