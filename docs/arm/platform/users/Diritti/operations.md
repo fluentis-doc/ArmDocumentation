@@ -3,6 +3,103 @@ title: Operazioni
 sidebar_position: 2
 ---
 
+![](../../../../../static/images/20250311095747.png)
+
+Attraverso le **Operazioni** è possibile definire una serie di azioni che l'utente può eseguire su un determinato oggetto, escludendone altre.  
+A differenza delle **restrizioni** le operazioni non nascondono dalla vista dell'utente l'oggetto vietandone qualsiasi interazione, ma piuttosto disabilitano una specifica azione sull'oggetto.   
+
+La form delle operazioni si presenta come segue:  
+
+![](../../../../../static/images/20250311100624.png)
+
+
+### Ribbon menu
+Il Ribbon menu consente all'utente di:
+* cercare le operazioni esistenti.
+* crare una nuova operazione.
+* eliminare un'operazione già esitente.
+
+### Filtro Standard
+Il filtro standard consente all'utente di filtrare le operazioni per:
+* codice.
+* descrizione.
+
+### Corpo centrale
+
+Il corpo centrale si compone di due tab:
+* Operations
+  * Business Object: Si tratta dell'oggetto Fluentis su cui si basa l'operazione.
+  * Code: Codice.
+  * Description: Descrizione.
+* Values
+  * Code: Codice
+  * Description: Descrizione.
+
+I valori sono degli indicatori di stato che consentono di attivare o meno l'operazione; il loro fuzionamento è assimilabile ad un booleano.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 La form **Operazioni** permette di inserire, modificare o eliminare un'Operazione e i suoi Valori. Si può accedere alla form, oltre che da Fluentis>Diritti>Operazioni, da Home>Utenti, tab Sicurezza e cliccando col tasto destro nella colonna Operazione.
 
 Attraverso le Operazioni è possibile definire una serie di azioni che l'utente può eseguire su un determinato Oggetto, escludendone altre.<br/>A differenza delle Restrizioni le Operazioni non nascondono alla vista dell'Utente l'Oggetto vietandone qualsiasi interazione, ma piuttosto disabilitano una specifica azione sull'Oggetto.

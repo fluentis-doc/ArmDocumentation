@@ -1,7 +1,7 @@
 {
   "id": "arm/platform/users/Diritti/operations",
   "title": "Operazioni",
-  "description": "La form Operazioni permette di inserire, modificare o eliminare un'Operazione e i suoi Valori. Si può accedere alla form, oltre che da Fluentis>Diritti>Operazioni, da Home>Utenti, tab Sicurezza e cliccando col tasto destro nella colonna Operazione.",
+  "description": "Attraverso le Operazioni è possibile definire una serie di azioni che l'utente può eseguire su un determinato oggetto, escludendone altre.",
   "source": "@site/docs/arm/platform/users/Diritti/operations.md",
   "sourceDirName": "arm/platform/users/Diritti",
   "slug": "/arm/platform/users/Diritti/operations",
